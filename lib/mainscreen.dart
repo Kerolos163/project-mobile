@@ -41,7 +41,6 @@ class _MyHomePageState extends State<MyHomePage> {
                   initZoom: 18,
                   minZoomLevel: 5,
                   maxZoomLevel: 18,
-                  stepZoom: 1.0,
                   userLocationMarker: UserLocationMaker(
                     personMarker: const MarkerIcon(
                       icon: Icon(
