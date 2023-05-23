@@ -242,9 +242,6 @@ class _MyHomePageState extends State<MyHomePage> {
                     child: const Text("Track user")),
                 TextButton(
                     onPressed: () async {
-                      await controller.enableTracking(
-                        enableStopFollow: false,
-                      );
                       geoPoints = [];
                       // GeoPoint geoPoint = await controller.myLocation();
                       // geoPoints.add(geoPoint);
