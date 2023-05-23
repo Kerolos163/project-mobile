@@ -57,9 +57,6 @@ class _MyHomePageState extends State<MyHomePage> {
                       ),
                     ),
                   ),
-                  roadConfiguration: const RoadOption(
-                    roadColor: Colors.yellowAccent,
-                  ),
                   markerOption: MarkerOption(
                       defaultMarker: const MarkerIcon(
                     icon: Icon(
