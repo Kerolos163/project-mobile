@@ -33,7 +33,7 @@ class _MyHomePageState extends State<MyHomePage> {
           SizedBox(
             height: MediaQuery.of(context).size.height / 1.4,
             child: Stack(
-              alignment: Alignment.bottomCenter,
+              alignment: Alignment.bottomLeft,
               children: [
                 OSMFlutter(
                   controller: controller,
