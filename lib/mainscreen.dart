@@ -259,9 +259,6 @@ class _MyHomePageState extends State<MyHomePage> {
               children: [
                 TextButton(
                     onPressed: () async {
-                      await controller.enableTracking(
-                        enableStopFollow: false,
-                      );
                       await controller.disabledTracking();
                       await controller.changeLocation(
                           GeoPoint(latitude: 29.32127, longitude: 30.83571));
