@@ -165,7 +165,6 @@ class _MyHomePageState extends State<MyHomePage> {
                       GeoPoint? p = await showSimplePickerLocation(
                         context: context,
                         title: "location picker",
-                        isDismissible: true,
                         textConfirmPicker: "pick",
                         initCurrentUserPosition: false,
                         initZoom: 15,
